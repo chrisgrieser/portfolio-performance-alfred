@@ -1,4 +1,4 @@
-/Users/chrisgrieser/Google Drive/Dokumente/Portfolio/Mein Portfolio.xml# Portfolio Performance - Alfred Workflow
+# Portfolio Performance - Alfred Workflow
 
 Searches your watchlists in the Portfolio Performance App via Alfred. Select one to copy its Name, Symbol, ISIN, or WKN to the clipboard.
 
