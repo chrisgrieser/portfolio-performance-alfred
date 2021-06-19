@@ -7,10 +7,10 @@ Searches your watchlists in the Portfolio Performance App via Alfred. Select one
 ## How to use
 
 - Use the keyword `pp` in Alfred to search your your watchlists for a security. You can search for the Name or the ticker symbol.
-- Select with ↵ to copy the ISIN to your clipboard.
-- Select with ⌘ + ↵ to copy the Symbol to your clipboard.
-- Select with ⌥ + ↵ to copy the WKN to your clipboard.
-- Select with `fn` + ↵ to copy the Name to your clipboard.
+- Select with `↵` to copy the ISIN to your clipboard.
+- Select with `⌘` + `↵` to copy the Symbol to your clipboard.
+- Select with `⌥` + `↵` to copy the WKN to your clipboard.
+- Select with `fn` + `↵` to copy the Name to your clipboard.
 
 ## Installation
 
