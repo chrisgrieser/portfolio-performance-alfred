@@ -1,4 +1,4 @@
-# Portfolio Performance - Alfred Workflow
+/Users/chrisgrieser/Google Drive/Dokumente/Portfolio/Mein Portfolio.xml# Portfolio Performance - Alfred Workflow
 
 Searches your watchlists in the Portfolio Performance App via Alfred. Select one to copy its Name, Symbol, ISIN, or WKN to the clipboard.
 
@@ -6,7 +6,7 @@ Searches your watchlists in the Portfolio Performance App via Alfred. Select one
 
 ## How to use
 
-- Use the keyword `pp` in Alfred to search your your watchlists for a security. You can search for the Name or the ticker symbol.
+- Use the keyword `pp` in Alfred to search  your watchlists for a security. You can search for the name or the ticker symbol.
 - Select with `↵` to copy the ISIN to your clipboard.
 - Select with `⌘` + `↵` to copy the Symbol to your clipboard.
 - Select with `⌥` + `↵` to copy the WKN to your clipboard.
@@ -17,7 +17,9 @@ Searches your watchlists in the Portfolio Performance App via Alfred. Select one
 - You need the [Alfred Powerpack](https://www.alfredapp.com/powerpack/) as well as [Portfolio Performance](https://www.portfolio-performance.info/).
 - [Download the latest release of this workflow](https://github.com/chrisgrieser/portfolio-performance-alfred/releases/latest)
 - Doubleclick the .alfredworkflow file to install it.
-- Enter the path to your portfolio xml-file from *Portfolio Performance* next to `portfolio_file` (do not use `~`).
+- Enter the full path to your portfolio xml-file from *Portfolio Performance* next to `portfolio_file`
+  -  example: `/Users/chrisgrieser/Portfolio/My_Portfolio.xml`
+  -  do not use `~` to refer to your home folder
 
 <img src="https://github.com/chrisgrieser/portfolio-performance-alfred/blob/main/setup%201.png?raw=true" alt="Click here" width=60% height=60%>
 
