@@ -15,9 +15,13 @@ Searches your watchlists in the Portfolio Performance App via Alfred. Select one
 ## Installation
 
 - You need the [Alfred Powerpack](https://www.alfredapp.com/powerpack/) as well as [Portfolio Performance](https://www.portfolio-performance.info/).
+- Install [Homebrew](https://brew.sh/) by copypasting the following line into the Terminal:
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+- Wait for the installation to finish. If you are asked for a password, enter your Mac user password. It won't be visible while typing, but will still be accepted.
+- Afterwards, install the pcre library by copypasting the following line: `brew install pcre`.
 - [Download the latest release of this workflow](https://github.com/chrisgrieser/portfolio-performance-alfred/releases/latest)
-- Doubleclick the .alfredworkflow file to install it.
-- Enter the full path to your portfolio xml-file from *Portfolio Performance* next to `portfolio_file`
+- Doubleclick the .alfredworkflow file to install it in Alfred
+- Enter the full path to your portfolio `xml`-file from *Portfolio Performance* next to `portfolio_file`
   -  example: `/Users/chrisgrieser/Portfolio/My_Portfolio.xml`
   -  do not use `~` to refer to your home folder
 
