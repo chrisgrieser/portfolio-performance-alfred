@@ -31,4 +31,6 @@ Searches your watchlists in the Portfolio Performance App via Alfred. Select one
 
 ---
 
+[Disscussion at the Portfolio Performance Community (in German)](https://forum.portfolio-performance.info/t/isin-symbol-wkn-name-per-alfred-workflow-kopieren/16831)
+
 This workflow has been created by [Chris Grieser](https://chris-grieser.de/).
