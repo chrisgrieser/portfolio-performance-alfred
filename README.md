@@ -7,10 +7,11 @@ Searches your watchlists in the Portfolio Performance App via Alfred. Select one
 ## How to use
 
 - Use the keyword `pp` in Alfred to search  your watchlists for a security. You can search for the name or the ticker symbol.
-- Select with `↵` to copy the ISIN to your clipboard.
-- Select with `⌘` + `↵` to copy the Symbol to your clipboard.
-- Select with `⌥` + `↵` to copy the WKN to your clipboard.
-- Select with `fn` + `↵` to copy the Name to your clipboard.
+- Select with `↵` to copy Name & ISIN to your clipboard.
+- Select with `⌘` + `↵` to copy the ISIN.
+- Select with `⌥` + `↵` to copy the WKN.
+- Select with `⌥` + `↵` to copy the Symbol.
+- Select with `fn` + `↵` to copy the Name.
 
 ## Installation
 
@@ -23,12 +24,10 @@ Searches your watchlists in the Portfolio Performance App via Alfred. Select one
 - Doubleclick the .alfredworkflow file to install it in Alfred
 - Enter the full path to your portfolio `xml`-file from *Portfolio Performance* next to `portfolio_file`
   -  example: `/Users/chrisgrieser/Portfolio/My_Portfolio.xml`
-  -  do not use `~` to refer to your home folder
 
 <img src="https://github.com/chrisgrieser/portfolio-performance-alfred/blob/main/setup%201.png?raw=true" alt="Click here" width=60% height=60%>
 
 <img src="https://github.com/chrisgrieser/portfolio-performance-alfred/blob/main/setup%202.png?raw=true" alt="enter path to your portfolio file here" width=50% height=50%>
-
 ---
 
 [Disscussion at the Portfolio Performance Community (in German)](https://forum.portfolio-performance.info/t/isin-symbol-wkn-name-per-alfred-workflow-kopieren/16831)
