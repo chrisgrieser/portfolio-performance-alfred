@@ -5,7 +5,7 @@
 	<key>bundleid</key>
 	<string>de.chris-grieser.portfolio-performance</string>
 	<key>category</key>
-	<string>Mini-Apps</string>
+	<string>Stocks</string>
 	<key>connections</key>
 	<dict>
 		<key>0B8E1E56-5E9C-4E84-85C7-0F20E691CDA3</key>
@@ -13,32 +13,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>E134D3E9-9391-4703-8A58-28C22635069F</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>168224EC-0D84-4714-AC80-49786BBC3D08</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>58B19E4C-178F-4DB2-9B93-40D8282D3CEC</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>18317D1C-8461-4378-BEB3-B76CC5DFECBA</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>B8D43BC5-BE16-495E-B193-81D0E2B04BDC</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -60,11 +34,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>3A63509E-E1BC-4E1B-87EE-3F6D0152685A</key>
+		<key>3E23500C-DCBF-48D6-879D-3087EA14DFA7</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>18317D1C-8461-4378-BEB3-B76CC5DFECBA</string>
+				<string>FC8D25C0-57F5-4305-B668-16C344FA2211</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -99,24 +73,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>5762E395-7975-4176-BBA4-7273D1066F25</key>
+		<key>4D0F59AA-8220-4B94-9BDA-6AA2834799FD</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>168224EC-0D84-4714-AC80-49786BBC3D08</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<true/>
-			</dict>
-		</array>
-		<key>5764C2E0-6B01-4410-A431-1B17CD6C0A71</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>AB2CFA84-74F7-4C3E-B9C0-1F0D2DF0DDFA</string>
+				<string>FBC05DED-4A46-46B7-8DBB-C03D3E4011AC</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -125,11 +86,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>58B19E4C-178F-4DB2-9B93-40D8282D3CEC</key>
+		<key>5764C2E0-6B01-4410-A431-1B17CD6C0A71</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>3A63509E-E1BC-4E1B-87EE-3F6D0152685A</string>
+				<string>AB2CFA84-74F7-4C3E-B9C0-1F0D2DF0DDFA</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -181,7 +142,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>0B8E1E56-5E9C-4E84-85C7-0F20E691CDA3</string>
+				<string>4D0F59AA-8220-4B94-9BDA-6AA2834799FD</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -193,9 +154,19 @@
 				<key>destinationuid</key>
 				<string>C08CBDAC-8DFC-4E6E-BF1D-ED4E6B14BDEA</string>
 				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string>⇧: Copy Symbol</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>0B8E1E56-5E9C-4E84-85C7-0F20E691CDA3</string>
+				<key>modifiers</key>
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
-				<string>⌘: Copy Symbol</string>
+				<string>⌘: Copy ISIN</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -215,7 +186,7 @@
 				<key>modifiers</key>
 				<integer>8388608</integer>
 				<key>modifiersubtext</key>
-				<string>Fn: Copy Name</string>
+				<string>fn: Copy Name</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -259,6 +230,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>FBC05DED-4A46-46B7-8DBB-C03D3E4011AC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3E23500C-DCBF-48D6-879D-3087EA14DFA7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>FEBE6935-198A-4272-A17F-CC24C44391D8</key>
 		<array>
 			<dict>
@@ -293,14 +277,14 @@
 				<key>removeextension</key>
 				<false/>
 				<key>text</key>
-				<string>'{var:id1}'</string>
+				<string>'{var:id4}, {var:id1}'</string>
 				<key>title</key>
-				<string>ISIN copied</string>
+				<string>Name &amp; ISIN copied</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
-			<string>811D21FB-47D1-4DBA-8E32-981AE6B69B7B</string>
+			<string>3E23500C-DCBF-48D6-879D-3087EA14DFA7</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -310,7 +294,7 @@
 				<key>autopaste</key>
 				<false/>
 				<key>clipboardtext</key>
-				<string>{var:id1}</string>
+				<string>{var:id4}, {var:id1}</string>
 				<key>ignoredynamicplaceholders</key>
 				<false/>
 				<key>transient</key>
@@ -319,7 +303,7 @@
 			<key>type</key>
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
-			<string>E134D3E9-9391-4703-8A58-28C22635069F</string>
+			<string>FBC05DED-4A46-46B7-8DBB-C03D3E4011AC</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -336,7 +320,7 @@
 			<key>type</key>
 			<string>alfred.workflow.utility.split</string>
 			<key>uid</key>
-			<string>0B8E1E56-5E9C-4E84-85C7-0F20E691CDA3</string>
+			<string>4D0F59AA-8220-4B94-9BDA-6AA2834799FD</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -400,13 +384,146 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>'{var:id1}'</string>
+				<key>title</key>
+				<string>ISIN copied</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>811D21FB-47D1-4DBA-8E32-981AE6B69B7B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>pp</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Scanning Portfolio File for Assets...</string>
+				<key>script</key>
+				<string>ObjC.import('stdlib');
+
+var portfolio_file = $.getenv('portfolio_file');
+path = portfolio_file.replace ("~","$HOME");
+
+app = Application.currentApplication();
+app.includeStandardAdditions = true;
+xmlData = app.doShellScript('export PATH=/usr/local/bin:$PATH; pcregrep -M -e "&lt;name&gt;(?:.|\n)*?&lt;prices&gt;" "' + path + '"');
+
+xmlData = xmlData.replaceAll ("&amp;amp;","&amp;"); //URL Decode
+xmlData = xmlData.replace (/\r      /g,";");
+xmlData = xmlData.replace (/(;|      )&lt;name&gt;/g,"&lt;name&gt;");
+var asset = xmlData.split("&lt;prices&gt;");
+let asset_array = [];
+
+asset.forEach(element =&gt; {
+  property = element.split (";");
+  let asset_name = property[0].replace (/&lt;name&gt;(.*)&lt;\/name&gt;/,"$1");
+  let asset_currency = "";
+  let asset_isin = "";
+  let asset_symbol = "";
+  let asset_wkn = "";
+  property.forEach(prop =&gt; {
+  	if (prop.includes ("isin")){
+  		asset_isin = prop.replace (/&lt;isin&gt;(.*)&lt;\/isin&gt;/,"$1");
+  	};
+  	if (prop.includes ("tickerSymbol")){
+  		asset_symbol = prop.replace (/&lt;tickerSymbol&gt;([^\.]*)(\..*)?&lt;\/tickerSymbol&gt;/,"$1");
+  	};
+  	if (prop.includes ("wkn")){
+  		asset_wkn = prop.replace (/&lt;wkn&gt;(.*)&lt;\/wkn&gt;/,"$1");
+  	};
+  	if (prop.includes ("currencyCode")){
+  		asset_currency = prop.replace (/&lt;currencyCode&gt;(.*)&lt;\/currencyCode&gt;/,"$1");
+  	};
+  });
+
+  asset_array.push ({ // Add to empty array
+    'title': asset_name + " - " + asset_symbol,
+    'subtitle': "ISIN: " + asset_isin + ", WKN: " + asset_wkn,
+    'arg': asset_isin + "," + asset_symbol + "," + asset_wkn + "," + asset_name,
+  })
+});
+
+JSON.stringify({ 'items': asset_array }) // Transform it into JSON Alfred understands</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>by Name or Symbol</string>
+				<key>title</key>
+				<string>Search Portfolio for '{query}'</string>
+				<key>type</key>
+				<integer>7</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>B8D43BC5-BE16-495E-B193-81D0E2B04BDC</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{var:id1}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>E134D3E9-9391-4703-8A58-28C22635069F</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
 				<integer>0</integer>
 				<key>script</key>
 				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
-readonly remote_info_plist='https://raw.githubusercontent.com/chrisgrieser/portfolio-performance-alfred/main/info.plist'
+readonly remote_info_plist='hhttps://raw.githubusercontent.com/chrisgrieser/portfolio-performance-alfred/main/info.plist'
 readonly workflow_url='chrisgrieser/portfolio-performance-alfred'
 readonly download_type='github_release'
 readonly frequency_check='1'
@@ -491,214 +608,17 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>export PATH=/usr/local/bin:$PATH
-
-echo -n `pcregrep -M -e "&lt;name&gt;(?:.|\n)*?&lt;prices&gt;" $portfolio_file`</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>5</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>58B19E4C-178F-4DB2-9B93-40D8282D3CEC</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>keyword</key>
-				<string>pp</string>
-				<key>subtext</key>
-				<string>by Name or Symbol</string>
-				<key>text</key>
-				<string>Search Portfolio Positions for '{query}'</string>
-				<key>withspace</key>
+				<key>delimiter</key>
+				<string>,</string>
+				<key>trimarguments</key>
 				<true/>
+				<key>variableprefix</key>
+				<string>id</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.utility.split</string>
 			<key>uid</key>
-			<string>5762E395-7975-4176-BBA4-7273D1066F25</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>script</key>
-				<string>input = "{query}";
-
-input = input.replaceAll ("&amp;amp;","&amp;"); //URL Decode
-var asset = input.split("&lt;prices&gt;");
-let asset_array = [];
-
-asset.forEach(element =&gt; {
-  temp = element.replace (/&lt;(\w+)&gt;(.*?)&lt;\/\w+&gt; /g,"$1,$2;");
-  
-  property = temp.split (";");
-  let asset_name = property[0].replace (/ ?name,/,"");
-  let asset_currency = "";
-  let asset_isin = "";
-  let asset_symbol = "";
-  let asset_wkn = "";
-  property.forEach(prop =&gt; {
-  	if (prop.includes ("isin")){
-  		asset_isin = prop.replace (/isin,/,"");
-  	};
-  	if (prop.includes ("tickerSymbol")){
-  		asset_symbol = prop.replace (/tickerSymbol,([^\.]*)\.?.*/,"$1");
-  	};
-  	if (prop.includes ("wkn")){
-  		asset_wkn = prop.replace (/wkn,/,"");
-  	};
-  	if (prop.includes ("currencyCode")){
-  		asset_currency = prop.replace (/currencyCode,/,"");
-  	};
-  });
-
-  asset_array.push ({ // Add to empty array
-    'title': asset_name + " - " + asset_symbol,
-    'subtitle': "ISIN: " + asset_isin + ", WKN: " + asset_wkn,
-    'arg': asset_isin + "," + asset_symbol + "," + asset_wkn + "," + asset_name,
-  })
-});
-
-JSON.stringify({ 'items': asset_array }) // Transform it into JSON Alfred understands</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>7</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>3A63509E-E1BC-4E1B-87EE-3F6D0152685A</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alfredfiltersresults</key>
-				<true/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>2</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<true/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>script</key>
-				<string>echo -n $assets</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>Scanning Portfolio File for Assets...</string>
-				<key>type</key>
-				<integer>5</integer>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>B8D43BC5-BE16-495E-B193-81D0E2B04BDC</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>{var:searchstring}</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>assets</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>18317D1C-8461-4378-BEB3-B76CC5DFECBA</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>searchstring</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>168224EC-0D84-4714-AC80-49786BBC3D08</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<true/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>'{var:id3}'</string>
-				<key>title</key>
-				<string>WKN copied</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>38D89DF4-F068-4134-A21A-34EAADA5246E</string>
+			<string>0B8E1E56-5E9C-4E84-85C7-0F20E691CDA3</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -720,6 +640,27 @@ JSON.stringify({ 'items': asset_array }) // Transform it into JSON Alfred unders
 			<string>48C01841-219C-4405-961D-A33BF7FC98BE</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>'{var:id3}'</string>
+				<key>title</key>
+				<string>WKN copied</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>38D89DF4-F068-4134-A21A-34EAADA5246E</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -797,32 +738,48 @@ JSON.stringify({ 'items': asset_array }) // Transform it into JSON Alfred unders
 		</dict>
 	</array>
 	<key>readme</key>
-	<string># Portfolio Performance - Alfred Workflow
+	<string># Release Notes
+v1.0
+- Google search for the ISIN as standard action
+- changed some assignments of the modifier key
+- Search starts directly with PP keyword
+
+---
+
+# Portfolio Performance - Alfred Workflow
 
 Searches your watchlists in the Portfolio Performance App via Alfred. Select one to copy its Name, Symbol, ISIN, or WKN to the clipboard.
 
-&lt;img src="https://github.com/chrisgrieser/portfolio-performance-alfred/blob/main/Demo%20PPP.gif?raw=true" alt="" width=50% height=50%&gt;
+&lt;img src="https://github.com/chrisgrieser/portfolio-performance-alfred/blob/main/Demo%20PPP.gif?raw=true" alt="" width=70% height=70%&gt;
 
 ## How to use
 
-- Use the keyword `pp` in Alfred to search your your watchlists for a security. You can search for the Name or the ticker symbol.
-- Select with ↵ to copy the ISIN to your clipboard.
-- Select with ⌘ + ↵ to copy the Symbol to your clipboard.
-- Select with ⌥ + ↵ to copy the WKN to your clipboard.
-- Select with `fn` + ↵ to copy the Name to your clipboard.
+- Use the keyword `pp` in Alfred to search  your watchlists for a security. You can search for the name or the ticker symbol.
+- Select with `↵` to copy Name &amp; ISIN to your clipboard.
+- Select with `⌘` + `↵` to copy the ISIN.
+- Select with `⌥` + `↵` to copy the WKN.
+- Select with `⌥` + `↵` to copy the Symbol.
+- Select with `fn` + `↵` to copy the Name.
 
 ## Installation
 
 - You need the [Alfred Powerpack](https://www.alfredapp.com/powerpack/) as well as [Portfolio Performance](https://www.portfolio-performance.info/).
+- Install [Homebrew](https://brew.sh/) by copypasting the following line into the Terminal:
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+- Wait for the installation to finish. If you are asked for a password, enter your Mac user password. It won't be visible while typing, but will still be accepted.
+- Afterwards, install the pcre library by copypasting the following line: `brew install pcre`.
 - [Download the latest release of this workflow](https://github.com/chrisgrieser/portfolio-performance-alfred/releases/latest)
-- Doubleclick the .alfredworkflow file to install it.
-- Enter the path to your portfolio xml-file from *Portfolio Performance* next to `portfolio_file` (do not use `~`).
+- Doubleclick the .alfredworkflow file to install it in Alfred
+- Enter the full path to your portfolio `xml`-file from *Portfolio Performance* next to `portfolio_file`
+  -  example: `/Users/chrisgrieser/Portfolio/My_Portfolio.xml`
 
-&lt;img src="https://github.com/chrisgrieser/portfolio-performance-alfred/blob/main/setup%201.png?raw=true" alt="Click here" width=50% height=50%&gt;
+&lt;img src="https://github.com/chrisgrieser/portfolio-performance-alfred/blob/main/setup%201.png?raw=true" alt="Click here" width=60% height=60%&gt;
 
 &lt;img src="https://github.com/chrisgrieser/portfolio-performance-alfred/blob/main/setup%202.png?raw=true" alt="enter path to your portfolio file here" width=50% height=50%&gt;
 
 ---
+
+[Disscussion at the Portfolio Performance Community (in German)](https://forum.portfolio-performance.info/t/isin-symbol-wkn-name-per-alfred-workflow-kopieren/16831)
 
 This workflow has been created by [Chris Grieser](https://chris-grieser.de/).</string>
 	<key>uidata</key>
@@ -832,56 +789,36 @@ This workflow has been created by [Chris Grieser](https://chris-grieser.de/).</s
 			<key>colorindex</key>
 			<integer>2</integer>
 			<key>xpos</key>
-			<integer>820</integer>
+			<integer>295</integer>
 			<key>ypos</key>
-			<integer>40</integer>
-		</dict>
-		<key>168224EC-0D84-4714-AC80-49786BBC3D08</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>2</integer>
-			<key>xpos</key>
-			<integer>165</integer>
-			<key>ypos</key>
-			<integer>285</integer>
-		</dict>
-		<key>18317D1C-8461-4378-BEB3-B76CC5DFECBA</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>2</integer>
-			<key>xpos</key>
-			<integer>520</integer>
-			<key>ypos</key>
-			<integer>285</integer>
+			<integer>330</integer>
 		</dict>
 		<key>38D89DF4-F068-4134-A21A-34EAADA5246E</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>2</integer>
 			<key>xpos</key>
-			<integer>1060</integer>
+			<integer>535</integer>
 			<key>ypos</key>
-			<integer>330</integer>
+			<integer>455</integer>
 		</dict>
-		<key>3A63509E-E1BC-4E1B-87EE-3F6D0152685A</key>
+		<key>3E23500C-DCBF-48D6-879D-3087EA14DFA7</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>2</integer>
-			<key>note</key>
-			<string>jsonfy</string>
+			<integer>3</integer>
 			<key>xpos</key>
-			<integer>380</integer>
+			<integer>535</integer>
 			<key>ypos</key>
-			<integer>255</integer>
+			<integer>25</integer>
 		</dict>
 		<key>4475FDC5-1AA5-4794-A478-36A8DD3D6D43</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>2</integer>
 			<key>xpos</key>
-			<integer>820</integer>
+			<integer>295</integer>
 			<key>ypos</key>
-			<integer>510</integer>
+			<integer>625</integer>
 		</dict>
 		<key>48C01841-219C-4405-961D-A33BF7FC98BE</key>
 		<dict>
@@ -890,18 +827,18 @@ This workflow has been created by [Chris Grieser](https://chris-grieser.de/).</s
 			<key>note</key>
 			<string>copy WKN</string>
 			<key>xpos</key>
-			<integer>890</integer>
+			<integer>365</integer>
 			<key>ypos</key>
-			<integer>330</integer>
+			<integer>455</integer>
 		</dict>
-		<key>5762E395-7975-4176-BBA4-7273D1066F25</key>
+		<key>4D0F59AA-8220-4B94-9BDA-6AA2834799FD</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>2</integer>
+			<integer>3</integer>
 			<key>xpos</key>
-			<integer>10</integer>
+			<integer>295</integer>
 			<key>ypos</key>
-			<integer>255</integer>
+			<integer>55</integer>
 		</dict>
 		<key>5764C2E0-6B01-4410-A431-1B17CD6C0A71</key>
 		<dict>
@@ -910,65 +847,54 @@ This workflow has been created by [Chris Grieser](https://chris-grieser.de/).</s
 			<key>note</key>
 			<string>copy Name</string>
 			<key>xpos</key>
-			<integer>890</integer>
+			<integer>365</integer>
 			<key>ypos</key>
-			<integer>480</integer>
-		</dict>
-		<key>58B19E4C-178F-4DB2-9B93-40D8282D3CEC</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>2</integer>
-			<key>note</key>
-			<string>grabs Info on all watched assets</string>
-			<key>xpos</key>
-			<integer>225</integer>
-			<key>ypos</key>
-			<integer>255</integer>
+			<integer>595</integer>
 		</dict>
 		<key>811D21FB-47D1-4DBA-8E32-981AE6B69B7B</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>2</integer>
 			<key>xpos</key>
-			<integer>1060</integer>
+			<integer>535</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>300</integer>
 		</dict>
 		<key>AB2CFA84-74F7-4C3E-B9C0-1F0D2DF0DDFA</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>2</integer>
 			<key>xpos</key>
-			<integer>1060</integer>
+			<integer>535</integer>
 			<key>ypos</key>
-			<integer>480</integer>
+			<integer>595</integer>
 		</dict>
 		<key>B6351950-8536-46AD-A832-D23A7B8DC2C1</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>2</integer>
 			<key>xpos</key>
-			<integer>1060</integer>
+			<integer>535</integer>
 			<key>ypos</key>
-			<integer>175</integer>
+			<integer>160</integer>
 		</dict>
 		<key>B8D43BC5-BE16-495E-B193-81D0E2B04BDC</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>2</integer>
+			<integer>3</integer>
 			<key>xpos</key>
-			<integer>575</integer>
+			<integer>55</integer>
 			<key>ypos</key>
-			<integer>255</integer>
+			<integer>300</integer>
 		</dict>
 		<key>C08CBDAC-8DFC-4E6E-BF1D-ED4E6B14BDEA</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>2</integer>
 			<key>xpos</key>
-			<integer>820</integer>
+			<integer>295</integer>
 			<key>ypos</key>
-			<integer>205</integer>
+			<integer>190</integer>
 		</dict>
 		<key>CBD365BF-74F4-4326-91CB-5BBD9722F21B</key>
 		<dict>
@@ -977,9 +903,9 @@ This workflow has been created by [Chris Grieser](https://chris-grieser.de/).</s
 			<key>note</key>
 			<string>copy Symbol</string>
 			<key>xpos</key>
-			<integer>890</integer>
+			<integer>365</integer>
 			<key>ypos</key>
-			<integer>175</integer>
+			<integer>160</integer>
 		</dict>
 		<key>E134D3E9-9391-4703-8A58-28C22635069F</key>
 		<dict>
@@ -988,9 +914,20 @@ This workflow has been created by [Chris Grieser](https://chris-grieser.de/).</s
 			<key>note</key>
 			<string>copy ISIN</string>
 			<key>xpos</key>
-			<integer>890</integer>
+			<integer>365</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>300</integer>
+		</dict>
+		<key>FBC05DED-4A46-46B7-8DBB-C03D3E4011AC</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>note</key>
+			<string>copy Name &amp; ISIN</string>
+			<key>xpos</key>
+			<integer>365</integer>
+			<key>ypos</key>
+			<integer>25</integer>
 		</dict>
 		<key>FC8D25C0-57F5-4305-B668-16C344FA2211</key>
 		<dict>
@@ -999,32 +936,32 @@ This workflow has been created by [Chris Grieser](https://chris-grieser.de/).</s
 			<key>note</key>
 			<string>OneUpdater (automatic update function)</string>
 			<key>xpos</key>
-			<integer>1355</integer>
+			<integer>755</integer>
 			<key>ypos</key>
-			<integer>250</integer>
+			<integer>300</integer>
 		</dict>
 		<key>FEBE6935-198A-4272-A17F-CC24C44391D8</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>2</integer>
 			<key>xpos</key>
-			<integer>820</integer>
+			<integer>295</integer>
 			<key>ypos</key>
-			<integer>360</integer>
+			<integer>485</integer>
 		</dict>
 	</dict>
 	<key>variables</key>
 	<dict>
 		<key>portfolio_file</key>
-		<string>/Users/chrisgrieser/Google Drive/Dokumente/Portfolio/Mein Portfolio.xml</string>
+		<string>~/Google Drive/Dokumente/Portfolio/Mein Portfolio.xml</string>
 	</dict>
 	<key>variablesdontexport</key>
 	<array>
 		<string>portfolio_file</string>
 	</array>
 	<key>version</key>
-	<string>0.9</string>
+	<string>1.0</string>
 	<key>webaddress</key>
-	<string>https://chris-grieser.de/</string>
+	<string>https://github.com/chrisgrieser/portfolio-performance-alfred/r</string>
 </dict>
 </plist>
