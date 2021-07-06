@@ -24,6 +24,7 @@ Searches your watchlists in the Portfolio Performance App via Alfred. Select one
 - Doubleclick the .alfredworkflow file to install it in Alfred
 - Enter the full path to your portfolio `xml`-file from *Portfolio Performance* next to `portfolio_file`
   -  example: `/Users/chrisgrieser/Portfolio/My_Portfolio.xml`
+  -  replacing your home folder with `~` is fine. (useful when you sync Alfred across multiple machines)
 
 <img src="https://github.com/chrisgrieser/portfolio-performance-alfred/blob/main/setup%201.png?raw=true" alt="Click here" width=60% height=60%>
 
