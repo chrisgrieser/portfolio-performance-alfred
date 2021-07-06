@@ -13,6 +13,8 @@ Searches your watchlists in the Portfolio Performance App via Alfred. Select one
 - Select with `⌥` + `↵` to copy the Symbol.
 - Select with `fn` + `↵` to copy the Name.
 
+Portfolio Performance does not need to be running. The xml-file has to be unencrypted, as Alfred is otherwise not able to read ist.
+
 ## Installation
 
 - You need the [Alfred Powerpack](https://www.alfredapp.com/powerpack/) as well as [Portfolio Performance](https://www.portfolio-performance.info/).
